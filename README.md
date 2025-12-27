@@ -10,14 +10,24 @@ A generic RAG (Retrieval-Augmented Generation) chatbot for interpreting VCF (Var
 
 ## Installation
 
+It is **highly recommended** to use a clean Conda environment to avoid conflicts with existing packages (Spyder, Numba, etc.).
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/vinsilicoAI/RAG_VCF_files.git
    cd RAG_VCF_files
    ```
 
-2. Install dependencies:
+2. Run the setup helper (or create an env manually):
    ```bash
+   bash setup_env.sh
+   # Follow the on-screen instructions to activate and install
+   ```
+
+   **Manual Setup:**
+   ```bash
+   conda create -n rag_vcf_env python=3.10 -y
+   conda activate rag_vcf_env
    pip install -r requirements.txt
    ```
 
