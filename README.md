@@ -12,7 +12,7 @@ A generic RAG (Retrieval-Augmented Generation) chatbot for interpreting VCF (Var
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/vinoydna/RAG_VCF_files.git
+   git clone https://github.com/vinsilicoAI/RAG_VCF_files.git
    cd RAG_VCF_files
    ```
 
